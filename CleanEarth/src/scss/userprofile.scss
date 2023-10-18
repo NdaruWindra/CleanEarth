@@ -1,0 +1,114 @@
+$primary: #40513b;
+$secondary: #edf1d6;
+
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
+// navbar
+.navbar {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0.9%;
+}
+
+.container_ulNavbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.container_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+// end navbar
+
+//content
+.content {
+  margin-top: -1%;
+  background-color: $secondary;
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-content {
+  width: 50%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total-saldo {
+  margin: 2%;
+  padding: 2%;
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-list {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 2%;
+}
+
+.card {
+  border-radius: 5px;
+  align-items: center;
+  color: #618264;
+  text-align: center;
+  width: 30%;
+  height: 90%;
+  padding: 3%;
+  transition: transform 1s ease;
+}
+
+.card :hover{
+  transform: scale(1.1); 
+}
+.chart {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 2%;
+  height: 40%;
+}
+// End content
+
+// footer
+.container-footer {
+  background-color: #20241f;
+  height: 50vh;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -2%;
+  color: white;
+}
+
+.instagram_footer {
+  width: 120%;
+}
+// end footer

@@ -1,0 +1,55 @@
+$primary: #40513b;
+$secondary: #edf1d6;
+
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
+// signup signup
+.container_signup,
+.container_signin {
+  height: 100vh;
+}
+
+.container_form_signup,
+.container_form_signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary;
+}
+
+.signup_form,
+.signin_form {
+  background-color: white;
+  border-radius: 8%;
+  width: 60%;
+  height: 70%;
+  padding: 5%;
+}
+
+.rowinput_signup {
+  margin: 0%;
+  padding-left: 0%;
+}
+
+.rowinput1_signup {
+  margin: 0%;
+  padding-right: 0%;
+}
+
+.btntext_signup,
+.btntext_signin {
+  color: white;
+  text-decoration: none;
+}
+
+.text_signin {
+  text-decoration: none;
+  color: #0089ed;
+}
+// end signin signup

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data Nasabah</title>
+</head>
+<body>
+    <section class="section1-adm-nasabah">
+        <div class="logo-adm-nasabah">
+            <img src="./assets/adm-nasabah-icon.png" alt="">
+            <h3>Admin Dashboard</h3>
+        </div>
+        <h2>CleanEarth</h2>
+        <div class="sdnav-adm-nasabah">
+            <a href="admin-nasabah.html" class="active-nav-admin"><i class="fa-solid fa-user"></i> Nasabah</a>
+            <a href="admin-barang.html"><i class="fa-solid fa-boxes-stacked"></i> Barang</a>
+            <a href="admin-penjualan.html"><i class="fa-solid fa-cart-shopping"></i> Penjualan</a>
+            <a href="admin-komunitas.html"><i class="fa-solid fa-people-group"></i> Komunitas</a>
+            <a href="admin-pengaturan.html"><i class="fa-solid fa-gear"></i> Pengaturan</a>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a style="margin: 0;"><i class="fa-solid fa-right-from-bracket" style="margin: 0;"></i> Keluar</a>
+        </div>
+    </section>
+
+    <section class="section2-adm-nasabah" style="background-color: #EFEFEF; padding-bottom: 8px;">
+        <div class="div-header-adm-nasabah">
+            <h1 style="font-size: 42px; font-weight: bold; color: #40513B;">Tambah Data Nasabah</h1>
+            <div class="akun-adm-nasabah">
+                <div class="circle-checkout" style="background-color: #40513B;"></div>
+                <p style="margin: 0px 8px; font-size: larger;">Ndaru Windra Sayidinna</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2-adm-nasabah" style="background-color: #edf1d6;">
+        <div class="form-tambahdata">
+            <form id="add-form" class="row g-3">
+                <div class="mb-3">
+                    <label for="nama" class="form-label">Nama:</label>
+                    <input type="text" id="nama" required class="form-control">
+                </div>
+                
+                <div class="col-md-4">
+                    <label for="bank" class="form-label">Bank:</label>
+                    <input type="text" id="bank" required class="form-control"><br><br>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="nominal" class="form-label">Nominal:</label>
+                    <input type="number" id="nominal" required class="form-control"><br><br>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="telepon" class="form-label">No Telepon:</label>
+                    <input type="tel" id="telepon" required class="form-control"><br><br>
+                </div>
+
+                <div class="mb-3">
+                    <label for="alamat" class="form-label">Alamat:</label>
+                    <textarea id="alamat" required class="form-control"></textarea><br><br>
+                </div>
+
+                <div class="btn-submit-adm-nasabah">
+                    <button type="submit" style="width: 140px; background-color: #9DC08B;">Tambah Data</button>
+                    <button onclick="location.href='admin-nasabah.html'" style="width: 140px; background-color: #AA5656; margin-left: 32px;">Kembali</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script type="module" src="./js/admin-nasabah-add.js"></script>
+    <script src="https://kit.fontawesome.com/cc6b75dd87.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+$primary: #40513b;
+$secondary: #edf1d6;
+
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
+// navbar
+.navbar {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0.9%;
+}
+
+.container_ulNavbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.container_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+// end navbar
+
+// ---------- KOMUNITAS CALLME ----------
+.form-komunitas-callme {
+  display: flex;
+  flex-direction: column;
+}
+.form-komunitas-callme input {
+  margin: 12px 0px;
+  padding: 12px 4px;
+}
+.form-callme {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: 50;
+  width: 100%;
+}
+.div-card-komunitas-callme {
+  display: flex;
+  padding: 32px;
+}
+.btn-komunitas-callme {
+  background-color: #40513b;
+  color: #f0f0f0;
+  margin: 32px 0px;
+  width: 250px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+}
+// end komunitas callme
+
+// footer
+.container-footer {
+  background-color: #20241f;
+  height: 50vh;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -2%;
+  color: white;
+}
+
+.instagram_footer {
+  width: 120%;
+}
+// end footer

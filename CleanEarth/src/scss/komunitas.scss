@@ -1,0 +1,159 @@
+$primary: #40513b;
+$secondary: #edf1d6;
+
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
+// navbar
+.navbar {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0.9%;
+}
+
+.container_ulNavbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.container_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+// end navbar
+
+/* action button (floating button) */
+.act-btn {
+  background-color: $primary;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-decoration: none;
+  transition: ease all 0.3s;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 1;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.644);
+}
+
+.act-btn:hover {
+  background: #ffffff;
+}
+
+.icon-1 {
+  width: 50px;
+  position: center;
+  bottom: 30px;
+}
+/* and of action button (floating button) */
+
+// ---------- KOMUNITAS ----------
+.section-header-komunitas {
+  width: 100%;
+  height: 100%;
+  background: url(../assets/bg-komunitas.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.section-header-komunitas img {
+  width: 100%;
+}
+.div-header-komunitas {
+  width: 90%;
+  text-align: center;
+  margin-top: 10%;
+  color: #40513b;
+}
+.div-header-komunitas h1 {
+  font-size: 64px;
+  font-weight: bolder;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.div-header-komunitas h4 {
+  margin: 32px 64px;
+  font-size: 32px;
+}
+.carousel-komunitas {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+.carousel-komunitas ::-webkit-scrollbar {
+  display: none;
+}
+
+.card-komunitas {
+  width: 26rem;
+  height: 30rem;
+  margin: 12px;
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+}
+
+.icon-komunitas {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.btn-gabung-komunitas {
+  background-color: #40513b;
+  color: #f0f0f0;
+  margin: 32px 32px 64px 32px;
+  width: 150px;
+  height: 60px;
+  border-radius: 12px;
+  border: none;
+  font-size: larger;
+}
+// ---------- END KOMUNITAS ----------
+
+// footer
+.container-footer {
+  background-color: #20241f;
+  height: 50vh;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -2%;
+  color: white;
+}
+
+.instagram_footer {
+  width: 120%;
+}
+// end footer

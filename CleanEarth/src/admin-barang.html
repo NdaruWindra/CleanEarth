@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <title>Admin Barang</title>
+</head>
+<body>
+
+   <section class="section1-adm-nasabah">
+      <div class="logo-adm-nasabah">
+          <img src="./assets/adm-nasabah-icon.png" alt="">
+          <h3>Admin Dashboard</h3>
+      </div>
+      <div style="text-align: center;">
+         <h2>CleanEarth</h2>
+      </div>
+      <div class="sdnav-adm-nasabah">
+          <a href="admin-nasabah.html"><i class="fa-solid fa-user"></i> Nasabah</a>
+          <a href="admin-barang.html" class="active-nav-admin"><i class="fa-solid fa-boxes-stacked"></i> Barang</a>
+          <a href="admin-penjualan.html"><i class="fa-solid fa-cart-shopping"></i> Penjualan</a>
+          <a href="admin-komunitas.html"><i class="fa-solid fa-people-group"></i> Komunitas</a>
+          <a href="admin-pengaturan.html"><i class="fa-solid fa-gear"></i> Pengaturan</a>
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center;">
+          <a style="margin: 0;"><i class="fa-solid fa-right-from-bracket" style="margin: 0;"></i> Keluar</a>
+      </div>
+  </section>
+
+    <section class="section2-adm-nasabah" style="background-color: #EFEFEF; padding-bottom: 8px;">
+        <div class="div-header-adm-nasabah">
+            <h1 style="font-size: 64px; font-weight: bold; color: #40513B;">BARANG</h1>
+            <div class="akun-adm-nasabah">
+                <div class="circle-checkout" style="background-color: #40513B;"></div>
+                <p style="margin: 0px 8px; font-size: larger;">Ndaru Windra Sayidinna</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2-adm-nasabah" style="background-color: #edf1d6;">
+        <div class="div-btn-adm-nasabah">
+            <div>
+                <button onclick="location.href='admin-nasabah-add.html'" style="width: 120px; background-color: #f8f8f8; border: solid 1px #C6C2DE;"><i class="fa-solid fa-filter"></i> Filter</button>
+                <input type="text" class="" placeholder="Search" required>
+            </div>
+            <div>
+               <button onclick="location.href='admin-nasabah-add.html'" style="width: 140px; background-color: #9DC08B;">Tambah</button>
+               <button onclick="location.href='admin-nasabah-add.html'" style="width: 140px; background-color: #B99B6B;">Edit</button>
+               <button onclick="location.href='admin-nasabah-add.html'" style="width: 140px; background-color: #AA5656;">Delete</button>
+            </div>
+        </div>
+        <div class="tabel-adm-nasabah">
+            <table>
+                <thead>
+                    <tr>
+                        <th>NO</th>
+                        <th>NAMA BARANG</th>
+                        <th>HARGA</th>
+                        <th>FOTO</th>
+                        <th>DESKRIPSI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                     <td>1</td>
+                     <td>Tas Anyaman Plastik</td>
+                     <td>Rp 10.000</td>
+                     <td style="text-align: center;"><img src="./assets/adm-barang-1.png" alt=""></td>
+                     <td>Tas anyaman yang dibuat dari 
+                        hasil daur ulang sampah pastik</td>
+                  </tr>
+                  <tr>
+                     <td>2</td>
+                     <td>Kertas Hias</td>
+                     <td>Rp 3.000</td>
+                     <td style="text-align: center;"><img src="./assets/adm-barang-2.png" alt=""></td>
+                     <td>Kertas hias yang dibuat dari 
+                        hasil daur ulang sampah tisu</td>
+                  </tr>
+                  <tr>
+                     <td>3</td>
+                     <td>Pot Bunga Sepatu</td>
+                     <td>Rp 8.000</td>
+                     <td style="text-align: center;"><img src="./assets/adm-barang-3.png" alt=""></td>
+                     <td>Pot Bunga dari sepatu yang dibuat dari hasil daur ulang sampah sepatu</td>
+                  </tr>
+                  <tr>
+                     <td>4</td>
+                     <td>Tikar Plastik</td>
+                     <td>Rp 5.000</td>
+                     <td style="text-align: center;"><img src="./assets/adm-barang-4.png" alt=""></td>
+                     <td>Tikar Plastik yang dibuat dari hasil daur ulang sampah plastik</td>
+                  </tr>
+                  <tr>
+                     <td>5</td>
+                     <td>Kursi  Ban Bekas</td>
+                     <td>Rp 50.000</td>
+                     <td style="text-align: center;"><img src="./assets/adm-barang-5.png" alt=""></td>
+                     <td>Kursi Ban Bekas yang dibuat dari hasil daur ulang sampah ban bekas</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <script type="module" src="./js/admin-nasabah.js"></script>
+    <script src="https://kit.fontawesome.com/cc6b75dd87.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <title>Admin Penjualan</title>
+</head>
+<body>
+
+    <section class="section1-adm-nasabah">
+        <div class="logo-adm-nasabah">
+            <img src="./assets/adm-nasabah-icon.png" alt="">
+            <h3>Admin Dashboard</h3>
+        </div>
+        <div style="text-align: center;">
+         <h2>CleanEarth</h2>
+        </div>
+        <div class="sdnav-adm-nasabah">
+            <a href="admin-nasabah.html"><i class="fa-solid fa-user"></i> Nasabah</a>
+            <a href="admin-barang.html"><i class="fa-solid fa-boxes-stacked"></i> Barang</a>
+            <a href="admin-penjualan.html" class="active-nav-admin"><i class="fa-solid fa-cart-shopping"></i> Penjualan</a>
+            <a href="admin-komunitas.html"><i class="fa-solid fa-people-group"></i> Komunitas</a>
+            <a href="admin-pengaturan.html"><i class="fa-solid fa-gear"></i> Pengaturan</a>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a style="margin: 0;"><i class="fa-solid fa-right-from-bracket" style="margin: 0;"></i> Keluar</a>
+        </div>
+    </section>
+
+    <section class="section2-adm-nasabah" style="background-color: #EFEFEF; padding-bottom: 8px;">
+        <div class="div-header-adm-nasabah">
+            <h1 style="font-size: 64px; font-weight: bold; color: #40513B;">PENJUALAN</h1>
+            <div class="akun-adm-nasabah">
+                <div class="circle-checkout" style="background-color: #40513B;"></div>
+                <p style="margin: 0px 8px; font-size: larger;">Ndaru Windra Sayidinna</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2-adm-nasabah" style="background-color: #edf1d6;">
+        <div class="div-btn-adm-nasabah">
+            <div>
+                <button onclick="location.href='admin-nasabah-add.html'" style="width: 120px; background-color: #f8f8f8; border: solid 1px #C6C2DE;"><i class="fa-solid fa-filter"></i> Filter</button>
+                <input type="text" class="" placeholder="Search" required>
+            </div>
+            <div>
+               <button onclick="location.href='admin-nasabah-add.html'" style="width: 140px; background-color: #9DC08B;">Tambah</button>
+               <button onclick="location.href='admin-nasabah-add.html'" style="width: 140px; background-color: #B99B6B;">Edit</button>
+               <button onclick="location.href='admin-nasabah-add.html'" style="width: 140px; background-color: #AA5656;">Delete</button>
+            </div>
+        </div>
+        <div class="tabel-adm-nasabah">
+            <table>
+                <thead>
+                    <tr>
+                        <th>NO</th>
+                        <th>NAMA</th>
+                        <th>BARANG</th>
+                        <th>NOMINAL</th>
+                        <th>NO TELPON</th>
+                        <th>ALAMAT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                     <td>1</td>
+                     <td>Muhammad Ali</td>
+                     <td>Tas Anyaman Plastik</td>
+                     <td>Rp. 10.000</td>
+                     <td>+62 81297780098</td>
+                     <td>Jl. Merdeka No. 09, Kota Bunga,
+                        Jawa Barat</td>
+                  </tr>
+                  <tr>
+                     <td>2</td>
+                     <td>Putra Wijaya</td>
+                     <td>Pot Botol Bekas</td>
+                     <td>Rp. 10.000</td>
+                     <td>+62 81878767829</td>
+                     <td>Jl. Mawar No. 13, Kota Melati,
+                        Jawa Barat</td>
+                  </tr>
+                  <tr>
+                     <td>3</td>
+                     <td>Maulana Eka</td>
+                     <td>Pot Bunga Sepatu</td>
+                     <td>Rp. 15.000</td>
+                     <td>+62 87654562555</td>
+                     <td>Jl. Matahari No. 12, Kota Bunga,
+                        Jawa Baratt</td>
+                  </tr>
+                  <tr>
+                     <td>4</td>
+                     <td>Putriana Fauziah</td>
+                     <td>Keranjang Minum</td>
+                     <td>Rp. 25.000</td>
+                     <td>+62 87908756775</td>
+                     <td>Jl. Merdeka No. 07, Kota Telaga,
+                        Jawa Barat</td>
+                  </tr>
+                  <tr>
+                     <td>5</td>
+                     <td>Melati Dwi</td>
+                     <td>Tikar Anyaman Plastik</td>
+                     <td>Rp. 50.000</td>
+                     <td>+62 87645432111</td>
+                     <td>Jl. Meruri No. 13, Kota Sari,
+                        Jawa Barat</td>
+                  </tr>
+                  <tr>
+                     <td>6</td>
+                     <td>Kirana Dewi</td>
+                     <td>Tas Anyaman Plastik</td>
+                     <td>Rp. 75.000</td>
+                     <td>+62 89878776723</td>
+                     <td>Jl. Sepatu No. 03, Kota Bunga,
+                        Jawa Barat</td>
+                  </tr>
+                  <tr>
+                     <td>7</td>
+                     <td>Syahputra Farhan</td>
+                     <td>Kursi Ban Bekas</td>
+                     <td>Rp. 100.000</td>
+                     <td>+62 80082376822</td>
+                     <td>Jl. Kenanga No. 11, Kota Bunga,
+                        Jawa Barat</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <script type="module" src="./js/admin-nasabah.js"></script>
+    <script src="https://kit.fontawesome.com/cc6b75dd87.js" crossorigin="anonymous"></script>
+</body>
+</html>

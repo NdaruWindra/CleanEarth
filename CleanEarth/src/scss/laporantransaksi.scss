@@ -1,0 +1,111 @@
+$primary: #40513b;
+$secondary: #edf1d6;
+$bgprofile: rgb(243, 255, 128, 100%);
+
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
+// navbar
+.navbar {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0.9%;
+}
+
+.container_ulNavbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.container_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+// end navbar
+
+// content
+.content {
+  height: 100vh;
+  background-color: $secondary;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  margin-top: -10%;
+}
+
+.container-content {
+  margin-top: 9%;
+  width: 90%;
+  height: 60vh;
+  padding: 2%;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.laporan {
+  width: 100%;
+  height: 100%;
+}
+
+.tanggal-laporan {
+  height: 30%;
+  flex-direction: column;
+}
+
+.tanggal-laporan p {
+  padding: 0;
+  margin: 0;
+}
+
+.img-arrow {
+  width: 2%;
+  margin-top: 1%;
+}
+
+.container-transaksi {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #618264;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin-right: 2%;
+}
+
+.text-transaksi {
+  padding: 2%;
+}
+// end Content
+
+// footer
+.container-footer {
+  background-color: #20241f;
+  height: 50vh;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -2%;
+  color: white;
+}
+
+.instagram_footer {
+  width: 120%;
+}
+// end footer

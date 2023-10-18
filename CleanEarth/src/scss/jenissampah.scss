@@ -1,0 +1,105 @@
+$primary: #40513b;
+$secondary: #edf1d6;
+
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
+// navbar
+.navbar {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0.9%;
+}
+
+.container_ulNavbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.container_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+// end navbar
+
+// content
+.content {
+  height: 120vh;
+  background-color: $secondary;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  margin-top: -10%;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  width: 100%;
+  height: 80vh;
+}
+
+.title-content {
+  text-align: center;
+  width: 60%;
+  padding: 0.5%;
+  border-radius: 25px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border: 3px solid black;
+}
+
+.container-list {
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: white;
+  padding-bottom: 2%;
+  height: 60vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  color: white;
+  padding: 1%;
+  border-radius: 5px;
+  margin-top: 2%;
+  width: 90%;
+  height: 30%;
+  background-color: #618264;
+}
+// end content
+
+// footer
+.container-footer {
+  background-color: #20241f;
+  height: 50vh;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -2%;
+  color: white;
+}
+
+.instagram_footer {
+  width: 120%;
+}
+// end footer

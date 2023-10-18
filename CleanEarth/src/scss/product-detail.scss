@@ -1,0 +1,132 @@
+$primary: #40513b;
+$secondary: #edf1d6;
+
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
+// navbar
+.navbar {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0.9%;
+}
+
+.container_ulNavbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.container_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+// end navbar
+
+// ---------- PEODUK DETAIL ----------
+.section-detail-product {
+  display: flex;
+  justify-content: center;
+  margin: 54px 0px;
+}
+.content-detail-product {
+  width: 90%;
+}
+.content-detail-product h2 {
+  font-weight: bold;
+  margin: 24px;
+}
+.div-img-detail-product {
+  width: auto;
+}
+.div-card-detail-product {
+  display: flex;
+  align-items: top;
+  padding: 32px;
+}
+.div-card-detail-product p {
+  margin: 4px 0px;
+}
+.div-card-detail-product img {
+  object-fit: cover;
+  border-radius: 18px;
+}
+//end produk detail
+
+// Button Detail Produk
+.button-detail-product {
+  display: flex;
+}
+.button-detail-product a {
+  padding: 8px 24px;
+  margin-left: 32px;
+  border-radius: 12px;
+}
+.counter-detail-product {
+  display: flex;
+  align-items: center;
+  color: #f1f1f1;
+  background-color: #40513b;
+  border-radius: 8px;
+}
+.counter-detail-product p {
+  margin: 0px 20px;
+}
+.counter-detail-product button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 100%;
+  border-radius: 8px;
+  font-size: larger;
+  border-color: #40513b;
+}
+.btn-beli-detail-product {
+  background-color: #40513b;
+  color: #f1f1f1;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-masukkeranjang-detail-product {
+  background-color: #d9e8db;
+  color: #40513b;
+  text-decoration: none;
+  border: 2px solid #40513b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//end button detail produk
+
+// footer
+.container-footer {
+  background-color: #20241f;
+  height: 50vh;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -2%;
+  color: white;
+}
+
+.instagram_footer {
+  width: 120%;
+}
+// end footer

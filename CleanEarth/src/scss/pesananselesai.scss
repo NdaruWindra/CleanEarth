@@ -1,0 +1,158 @@
+$primary: #40513b;
+$secondary: #edf1d6;
+
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
+// navbar
+.navbar {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0.9%;
+}
+
+.container_ulNavbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.container_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+// end navbar
+
+//Nav pesanan
+.nav-pesanan-checkout {
+  width: 100%;
+  height: 100%;
+  padding: 1% 25%;
+  background: #c1b7b7;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: inline-flex;
+}
+.div-nav-pesanan-checkout {
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+.circle-checkout {
+  width: 30px;
+  height: 30px;
+  background: #edf1d6;
+  border-radius: 100px;
+}
+.text-checkout {
+  color: #2f2d2d;
+  font-weight: bold;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+// end nav pesanan
+
+// ---------- PESANAN SELESAI ----------
+.section-pesanan-selesai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 64px 0px;
+}
+.div-img-pesanan-selesai {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.section-pesanan-selesai img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 18px;
+}
+.div-judul-pesanan-selesai h4 {
+  font-weight: bold;
+}
+.div-konten-pesanan-selesai {
+  margin-left: 160px;
+}
+.div-konten-pesanan-selesai h4 {
+  font-weight: bold;
+}
+.div-list-pesanan-selesai-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-btn-pesanan {
+  display: flex;
+  justify-content: center;
+}
+.btn-buatpesanan-selesai {
+  background-color: #40513b;
+  color: #f0f0f0;
+  margin: 32px 32px 64px 32px;
+  width: 300px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+}
+// end pesanan selesai
+
+// --------- PESAN PESANAN BERHASIL ----------
+.hidden {
+  display: none;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.pesanan-sukses {
+  text-align: center;
+  padding: 64px 128px;
+  border-radius: 24px;
+  background-color: #f1f1f1;
+  font-size: x-large;
+}
+// end pesan pesanan berhasil
+
+// footer
+.container-footer {
+  background-color: #20241f;
+  height: 50vh;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -2%;
+  color: white;
+}
+
+.instagram_footer {
+  width: 120%;
+}
+// end footer

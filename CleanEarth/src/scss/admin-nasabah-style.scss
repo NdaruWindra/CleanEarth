@@ -1,0 +1,191 @@
+$primary: #40513b;
+$secondary: #edf1d6;
+
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   min-height: 100vh;
+}
+
+.section1-adm-nasabah {
+   position: fixed;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 100vh;
+   padding: 32px;
+   background-color: $primary;
+  color: $secondary;
+}
+
+.logo-adm-nasabah {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+ 
+.section1-adm-nasabah img {
+   width: 50%;
+   margin-bottom: 24px;
+}
+
+.section1-adm-nasabah a {
+   margin: 12px;
+   font-size: large;
+}
+
+.section1-adm-nasabah i {
+   margin: 0px 16px;
+   font-size: large;
+}
+
+.sdnav-adm-nasabah {
+   display: flex;
+   flex-direction: column;
+}
+.section2-adm-nasabah {
+   padding: 32px 72px 32px 420px;
+}
+
+.section2-adm-nasabah button {
+   color: #2F2D2D;
+   width: 72px;
+   height: 42px;
+   border-radius: 12px;
+   border: none;
+}
+
+.btn-submit-adm-nasabah {
+   display: flex;
+   justify-content: center;
+}
+
+.div-header-adm-nasabah {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   margin-top: 10%;
+}
+
+.div-btn-adm-nasabah {
+   display: flex;
+   justify-content: space-between;
+   margin: 40px 0px;
+}
+
+.div-btn-adm-nasabah input {
+   padding: 8px 12px;
+   border-radius: 12px;
+   border: solid 1px #C6C2DE;
+   margin-left: 8px;
+}
+
+.tabel-adm-nasabah table {
+   width: 100%;
+   border-collapse: collapse;
+ }
+ 
+.tabel-adm-nasabah table, th, td {
+   border: 1px solid #ccc;
+ }
+
+.tabel-adm-nasabah th, td {
+   padding: 12px;
+   text-align: left;
+ }
+ 
+.tabel-adm-nasabah th {
+   background-color: $primary;
+   color: $secondary;
+   text-align: center;
+ }
+ 
+.tabel-adm-nasabah td {
+   max-width: 400px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+ }
+ 
+.tabel-adm-nasabah tbody td:nth-child(7) {
+   white-space: normal; 
+ }
+
+.tabel-adm-nasabah img {
+   height: 80px;
+}
+ 
+ .akun-adm-nasabah {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .circle-checkout {
+   width: 40px; 
+   height: 40px; 
+   background: #EDF1D6; 
+   border-radius: 100px;
+   margin-right: 12px;
+}
+
+.form-tambahdata {
+   display: flex;
+   justify-content: center;
+   margin-top: 64px;
+}
+
+.active-nav-admin {
+   text-decoration: none;
+   background-color: #9DC08B;
+   padding: 8px 4px;
+   border-radius: 12px;
+}
+
+.sdnav-adm-nasabah a {
+   color: #EDF1D6;
+   text-decoration: none;
+}
+
+.pp-adm-pengaturan {
+   display: flex;
+}
+
+.pp-adm-pengaturan button {
+   width: 120px;
+   margin-left: 12px;
+}
+
+.tbl-adm-pengaturan {
+   margin-top: 48px;
+}
+
+.tbl-adm-pengaturan td {
+   border: none;
+}
+
+.tbl-adm-pengaturan input {
+   margin-left: 12px;
+   padding: 2px 8px;
+   border-radius: 4px;
+   border: 1px solid #C6C2DE;
+}
+
+.btn-adm-pengaturan {
+   display: flex;
+   justify-content: center;
+}
+
+.btn-adm-pengaturan button {
+   width: 120px;
+   margin-left: 12px;
+}
