@@ -20,7 +20,7 @@ document.getElementById('add-form').addEventListener('submit', async function (e
    };
 
    try {
-       const response = await fetch('http://localhost:3000/nasabah', {
+       const response = await fetch('https://precious-battledress-ray.cyclic.app/nasabah', {
            method: 'POST',
            headers: {
                'Content-Type': 'application/json',

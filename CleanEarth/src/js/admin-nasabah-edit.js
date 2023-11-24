@@ -1,7 +1,7 @@
 import "../scss/admin-nasabah-style.scss";
 
 function fetchItemById(id) {
-    fetch(`http://localhost:3000/nasabah/${id}`)
+    fetch(`https://precious-battledress-ray.cyclic.app/nasabah/${id}`)
         .then(response => response.json())
         .then(item => {
             document.getElementById("itemId").value = item._id;
@@ -16,7 +16,7 @@ function fetchItemById(id) {
 function updateItem(item) {
     const itemId = document.getElementById("itemId").value;
 
-    fetch(`http://localhost:3000/nasabah/${itemId}`, {
+    fetch(`https://precious-battledress-ray.cyclic.app/nasabah/${itemId}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'

@@ -45,7 +45,7 @@ function editItem(id) {
 
 
 function deleteItem(id) {
-    fetch(`http://localhost:3000/nasabah/${id}`, {
+    fetch(`https://precious-battledress-ray.cyclic.app/nasabah/${id}`, {
         method: 'DELETE'
     })
     .then(response => response.json())
@@ -56,7 +56,7 @@ function deleteItem(id) {
 }
 
 // GET FUNCTION
-fetch('http://localhost:3000/nasabah')
+fetch('https://precious-battledress-ray.cyclic.app/nasabah')
     .then(response => response.json())
     .then(items => {
         data = items;
