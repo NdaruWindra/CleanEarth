@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
+    <link rel="stylesheet" href="scss/signinsignup.scss">
 </head>
 
 <body>
@@ -28,19 +29,18 @@
                         </div>
                     </div>
 
-                    <form>
+                    <form id="signin-form">
                         <div class="mb-4">
                             <label for="username" class="form-label">Masukkan Username atau Alamat Email</label>
-                            <input type="text" class="form-control" placeholder="Username atau Alamat Email" required>
+                            <input type="text" id="username" class="form-control" placeholder="Username atau Alamat Email" required>
                         </div>
                         <div class="mb-4">
                             <label for="password" class="form-label">Masukkan Password</label>
-                            <input type="password" class="form-control" placeholder="Masukkan Password" required>
+                            <input type="password" id="password" class="form-control" placeholder="Masukkan Password" required>
                             <p class="text-end pt-3"><a href="" class="text_signin">Lupa Password</a></p>
                         </div>
                         <div class="mt-5 text-center">
-                                <button type="button" class="btn btn-primary fw-bold">
-                                    <a href="berandalogin.html" class="btntext_signin">Masuk</a></button>
+                                <button type="submit" class="btn btn-primary fw-bold btntext_signin">Masuk</button>
                         </div>
                     </form>
                 </div>

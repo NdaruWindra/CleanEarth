@@ -2,7 +2,12 @@ import "../scss/admin-nasabah-style.scss";
 
 function fetchItemById(id) {
     fetch(`http://localhost:3000/nasabah/${id}`)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to fetch item');
+            }
+            return response.json();
+        })
         .then(item => {
             document.getElementById("itemId").value = item._id;
             document.getElementById("nama").value = item.nama;
@@ -10,6 +15,10 @@ function fetchItemById(id) {
             document.getElementById("nominal").value = item.nominal;
             document.getElementById("telepon").value = item.no_telepon;
             document.getElementById("alamat").value = item.alamat;
+        })
+        .catch(error => {
+            console.error('Error fetching item:', error);
+            alert('Gagal memuat data item');
         });
 }
 
@@ -23,10 +32,19 @@ function updateItem(item) {
         },
         body: JSON.stringify(item)
     })
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to update item');
+        }
+        return response.json();
+    })
     .then(updatedItem => {
-        console.log("Item updated successfully:", updatedItem);
+        alert('Data berhasil diperbarui');
         window.location.href = 'admin-nasabah.html';
+    })
+    .catch(error => {
+        console.error('Error updating item:', error);
+        alert('Gagal memperbarui data. Silakan coba lagi.');
     });
 }
 

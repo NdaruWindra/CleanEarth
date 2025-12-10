@@ -86,7 +86,7 @@ app.delete('/nasabah/:id', async (req, res) => {
     try {
         const item = await Item.findByIdAndDelete(id);
         if (!item) {
-            res.status(404).send();
+            return res.status(404).send('Item not found');
         }
         res.send(item);
     } catch (err) {
